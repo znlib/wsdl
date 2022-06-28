@@ -1,0 +1,21 @@
+{
+  "name": "znlib/wsdl",
+  "type": "extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Yamshikov Vitaliy",
+      "email": "theyamshikov@yandex.ru"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    
+  },
+  "autoload": {
+    "psr-4": {
+      "ZnLib\\Wsdl\\": "src",
+      "ZnLib\\Wsdl\\Tests\\": "tests"
+    }
+  }
+}
