@@ -63,7 +63,7 @@ class DefinitionController
 
         $appName = $this->extractAppName($uri);
 //        dd($appName);
-        $appConfig = $this->serviceRepository->oneByName($appName);
+        $appConfig = $this->serviceRepository->findOneByName($appName);
 
 
         $fileName = $appConfig->getPath() . '/' . $relativeFileName;

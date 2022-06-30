@@ -26,7 +26,7 @@ class ServiceRepository extends BaseRepository implements ServiceRepositoryInter
         $this->collection = $collection;
     }
 
-    public function oneByName(string $appName): ServiceEntity
+    public function findOneByName(string $appName): ServiceEntity
     {
         $apps = $this->collection;
         if (!array_key_exists($appName, $apps)) {
