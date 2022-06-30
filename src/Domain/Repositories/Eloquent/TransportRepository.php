@@ -27,6 +27,6 @@ class TransportRepository extends BaseEloquentCrudRepository implements Transpor
         $query = $this->forgeQuery($query);
 //        $query->limit(10);
         $query->where('status_id', StatusEnum::NEW);
-        return $this->all($query);
+        return $this->findAll($query);
     }
 }
