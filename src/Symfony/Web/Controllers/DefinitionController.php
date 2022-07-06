@@ -6,7 +6,7 @@ use ZnLib\Wsdl\Domain\Interfaces\Repositories\ServiceRepositoryInterface;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use ZnLib\Components\Http\Enums\HttpStatusCodeEnum;
-use ZnCore\Base\FileSystem\Helpers\FileStorageHelper;
+use ZnCore\FileSystem\Helpers\FileStorageHelper;
 use ZnLib\Web\Xml\Libs\XmlResponse;
 
 class DefinitionController

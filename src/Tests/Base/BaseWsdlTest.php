@@ -5,7 +5,7 @@ namespace ZnLib\Wsdl\Tests\Base;
 use ZnLib\Wsdl\Domain\Libs\SoapClient;
 use PHPUnit\Framework\TestCase;
 use ZnLib\Components\Format\Encoders\XmlEncoder;
-use ZnCore\Base\FileSystem\Helpers\FileStorageHelper;
+use ZnCore\FileSystem\Helpers\FileStorageHelper;
 use ZnTool\Test\Helpers\TestHelper;
 use ZnTool\Test\Traits\BaseUrlTrait;
 use ZnTool\Test\Traits\FixtureTrait;

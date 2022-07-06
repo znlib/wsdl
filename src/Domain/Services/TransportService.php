@@ -8,7 +8,7 @@ use ZnLib\Wsdl\Domain\Interfaces\Repositories\ClientRepositoryInterface;
 use ZnLib\Wsdl\Domain\Interfaces\Repositories\TransportRepositoryInterface;
 use ZnLib\Wsdl\Domain\Interfaces\Services\TransportServiceInterface;
 use ZnCore\Domain\Service\Base\BaseCrudService;
-use ZnCore\Domain\EntityManager\Interfaces\EntityManagerInterface;
+use ZnCore\EntityManager\Interfaces\EntityManagerInterface;
 
 /**
  * @method TransportRepositoryInterface getRepository()

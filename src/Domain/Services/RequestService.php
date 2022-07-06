@@ -8,10 +8,10 @@ use ZnLib\Wsdl\Domain\Enums\StatusEnum;
 use ZnLib\Wsdl\Domain\Interfaces\Services\RequestServiceInterface;
 use ZnLib\Wsdl\Domain\Libs\SoapHandler;
 use Psr\Container\ContainerInterface;
-use ZnCore\Base\Container\Traits\ContainerAwareTrait;
-use ZnCore\Base\FileSystem\Helpers\FileStorageHelper;
+use ZnCore\Container\Traits\ContainerAwareTrait;
+use ZnCore\FileSystem\Helpers\FileStorageHelper;
 use ZnCore\Domain\Service\Base\BaseService;
-use ZnCore\Domain\EntityManager\Interfaces\EntityManagerInterface;
+use ZnCore\EntityManager\Interfaces\EntityManagerInterface;
 
 class RequestService extends BaseService implements RequestServiceInterface
 {

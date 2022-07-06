@@ -4,7 +4,7 @@ namespace ZnLib\Wsdl\Domain\Libs;
 
 use Psr\Container\ContainerInterface;
 use SoapServer;
-use ZnCore\Base\Container\Traits\ContainerAwareTrait;
+use ZnCore\Container\Traits\ContainerAwareTrait;
 
 class SoapHandler
 {

@@ -6,9 +6,9 @@ use Psr\Container\ContainerInterface;
 
 
 use ZnCore\Base\Env\Helpers\EnvHelper;
-use ZnCore\Base\Container\Interfaces\ContainerConfiguratorInterface;
-use ZnCore\Domain\EntityManager\Interfaces\EntityManagerConfiguratorInterface;
-use ZnCore\Domain\EntityManager\Interfaces\EntityManagerInterface;
+use ZnCore\Container\Interfaces\ContainerConfiguratorInterface;
+use ZnCore\EntityManager\Interfaces\EntityManagerConfiguratorInterface;
+use ZnCore\EntityManager\Interfaces\EntityManagerInterface;
 
 return function (ContainerConfiguratorInterface $configurator, EntityManagerConfiguratorInterface $em) {
     $configurator->importFromDir([__DIR__ . '/../..']);
