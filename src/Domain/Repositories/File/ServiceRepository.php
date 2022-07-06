@@ -4,7 +4,7 @@ namespace ZnLib\Wsdl\Domain\Repositories\File;
 
 use ZnLib\Wsdl\Domain\Entities\ServiceEntity;
 use ZnLib\Wsdl\Domain\Interfaces\Repositories\ServiceRepositoryInterface;
-use ZnCore\Domain\Repository\Base\BaseRepository;
+use ZnCore\Repository\Base\BaseRepository;
 
 class ServiceRepository extends BaseRepository implements ServiceRepositoryInterface
 {

@@ -6,7 +6,7 @@ use ZnLib\Wsdl\Domain\Entities\TransportEntity;
 use ZnLib\Wsdl\Domain\Enums\StatusEnum;
 use ZnLib\Wsdl\Domain\Interfaces\Repositories\TransportRepositoryInterface;
 use ZnCore\Collection\Interfaces\Enumerable;
-use ZnCore\Domain\Query\Entities\Query;
+use ZnCore\Query\Entities\Query;
 use ZnDatabase\Eloquent\Domain\Base\BaseEloquentCrudRepository;
 
 class TransportRepository extends BaseEloquentCrudRepository implements TransportRepositoryInterface

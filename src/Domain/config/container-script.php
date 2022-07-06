@@ -5,7 +5,7 @@ use ZnLib\Wsdl\Domain\Libs\SoapHandler;
 use Psr\Container\ContainerInterface;
 
 
-use ZnCore\Base\Env\Helpers\EnvHelper;
+use ZnCore\Env\Helpers\EnvHelper;
 use ZnCore\Container\Interfaces\ContainerConfiguratorInterface;
 use ZnCore\EntityManager\Interfaces\EntityManagerConfiguratorInterface;
 use ZnCore\EntityManager\Interfaces\EntityManagerInterface;

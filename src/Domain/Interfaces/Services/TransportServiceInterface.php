@@ -3,7 +3,7 @@
 namespace ZnLib\Wsdl\Domain\Interfaces\Services;
 
 use ZnLib\Wsdl\Domain\Entities\TransportEntity;
-use ZnCore\Domain\Service\Interfaces\CrudServiceInterface;
+use ZnCore\Service\Interfaces\CrudServiceInterface;
 
 interface TransportServiceInterface extends CrudServiceInterface
 {

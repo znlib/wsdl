@@ -7,7 +7,7 @@ use ZnLib\Wsdl\Domain\Enums\StatusEnum;
 use ZnLib\Wsdl\Domain\Interfaces\Repositories\ClientRepositoryInterface;
 use ZnLib\Wsdl\Domain\Interfaces\Repositories\TransportRepositoryInterface;
 use ZnLib\Wsdl\Domain\Interfaces\Services\TransportServiceInterface;
-use ZnCore\Domain\Service\Base\BaseCrudService;
+use ZnCore\Service\Base\BaseCrudService;
 use ZnCore\EntityManager\Interfaces\EntityManagerInterface;
 
 /**

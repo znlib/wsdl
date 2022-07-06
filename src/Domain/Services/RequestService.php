@@ -10,7 +10,7 @@ use ZnLib\Wsdl\Domain\Libs\SoapHandler;
 use Psr\Container\ContainerInterface;
 use ZnCore\Container\Traits\ContainerAwareTrait;
 use ZnCore\FileSystem\Helpers\FileStorageHelper;
-use ZnCore\Domain\Service\Base\BaseService;
+use ZnCore\Service\Base\BaseService;
 use ZnCore\EntityManager\Interfaces\EntityManagerInterface;
 
 class RequestService extends BaseService implements RequestServiceInterface

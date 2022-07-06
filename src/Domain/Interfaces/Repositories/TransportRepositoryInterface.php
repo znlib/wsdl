@@ -2,7 +2,7 @@
 
 namespace ZnLib\Wsdl\Domain\Interfaces\Repositories;
 
-use ZnCore\Domain\Repository\Interfaces\CrudRepositoryInterface;
+use ZnCore\Repository\Interfaces\CrudRepositoryInterface;
 
 interface TransportRepositoryInterface extends CrudRepositoryInterface
 {
