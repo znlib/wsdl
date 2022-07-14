@@ -3,7 +3,7 @@
 namespace ZnLib\Wsdl\Domain\Interfaces\Repositories;
 
 use ZnLib\Wsdl\Domain\Entities\ServiceEntity;
-use ZnCore\Repository\Interfaces\CrudRepositoryInterface;
+use ZnDomain\Repository\Interfaces\CrudRepositoryInterface;
 
 interface ClientRepositoryInterface //extends CrudRepositoryInterface
 {

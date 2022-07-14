@@ -7,7 +7,7 @@ use ZnLib\Wsdl\Domain\Enums\StatusEnum;
 use ZnLib\Wsdl\Domain\Interfaces\Repositories\ClientRepositoryInterface;
 use ZnLib\Wsdl\Domain\Libs\SoapClient;
 use ZnCore\FileSystem\Helpers\FileStorageHelper;
-use ZnCore\Repository\Base\BaseRepository;
+use ZnDomain\Repository\Base\BaseRepository;
 
 class ClientRepository extends BaseRepository implements ClientRepositoryInterface
 {

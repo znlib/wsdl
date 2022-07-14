@@ -3,7 +3,7 @@
 namespace ZnLib\Wsdl\Domain\Base;
 
 use SoapClient;
-use ZnCore\Repository\Base\BaseRepository;
+use ZnDomain\Repository\Base\BaseRepository;
 
 abstract class BaseWsdlRepository extends BaseRepository
 {
