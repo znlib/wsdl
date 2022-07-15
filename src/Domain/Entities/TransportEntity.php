@@ -3,14 +3,14 @@
 namespace ZnLib\Wsdl\Domain\Entities;
 
 use ZnLib\Wsdl\Domain\Enums\StatusEnum;
-use ZnCore\Entity\Interfaces\EntityIdInterface;
+use ZnDomain\Entity\Interfaces\EntityIdInterface;
 use DateTime;
-use ZnCore\Validation\Interfaces\ValidationByMetadataInterface;
+use ZnDomain\Validator\Interfaces\ValidationByMetadataInterface;
 use Symfony\Component\Validator\Constraints as Assert;
 use Symfony\Component\Validator\Mapping\ClassMetadata;
 use ZnCore\Arr\Constraints\Arr;
 use ZnCore\Enum\Constraints\Enum;
-use ZnCore\Entity\Interfaces\UniqueInterface;
+use ZnDomain\Entity\Interfaces\UniqueInterface;
 
 class TransportEntity implements EntityIdInterface, ValidationByMetadataInterface, UniqueInterface
 {
