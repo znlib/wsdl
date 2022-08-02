@@ -7,9 +7,9 @@ use DateTime;
 use ZnDomain\Validator\Interfaces\ValidationByMetadataInterface;
 use Symfony\Component\Validator\Constraints as Assert;
 use Symfony\Component\Validator\Mapping\ClassMetadata;
-use ZnDomain\Сomponents\Constraints\Arr;
+use ZnCore\Arr\Constraints\Arr;
 use ZnLib\Components\Status\Enums\StatusEnum;
-use ZnDomain\Сomponents\Constraints\Enum;
+use ZnDomain\Сomponents\EnumRepository\Constraints\Enum;
 use ZnDomain\Entity\Interfaces\UniqueInterface;
 
 class RequestEntity implements EntityIdInterface, ValidationByMetadataInterface, UniqueInterface
